@@ -1,0 +1,81 @@
+<!-- The Jedi's Choice - Version 2.2.1 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Jedi's Choice</title>
+	<link rel="stylesheet" type="text/css" href="jstyle.css">
+</head>
+<body>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+<!-- Top section of the page -->
+<div class="top">
+	<div class="jlabel">
+		THE JEDI'S CHOICE
+	</div>
+	<div class="jmotto">
+		<h2>THE JEDI YOU ARE</h2>
+	</div>
+</div>
+
+<!-- Navbar -->
+<div w3-include-html="navbar.html"></div> 
+<script>
+w3.includeHTML();
+</script>
+<br><br><br>
+
+<!-- New Movies slideshow -->
+<div class="slideshow-container">
+	<div class="mySlides fade">
+	  <a href="camer.html"><img src="ca.jpg" height="375" width="625"></a>
+	  <div class="text">Captain America: Civil War&nbsp<sub>marvel.com</sub></div>
+	</div>
+	<div class="mySlides fade">
+	  <a href="jbook.html"><img src="jbk.jpg" height="375" width="625"></a>
+	  <div class="text">Jungle Book&nbsp<sub>comingsoon.net</sub></div>
+	</div>
+	<div class="mySlides fade">
+	  <a href="bvsuper.html"><img src="bvss.jpg" height="375" width="625"></a>
+	  <div class="text">Batman v Superman:Dawn of Justice&nbsp<sub>thesource.com</sub></div>
+	</div>
+	<div class="mySlides fade">
+	  <a href="kungpan.html"><img src="kfup3.jpg" height="375" width="625"></a>
+	  <div class="text">Kung Fu Panda 3&nbsp<sub>ign.com</sub></div>
+	</div>
+	<a class="prev" onclick="clearInterval(autoS); plusSlides(-1)">Back</a>
+	<a class="next" onclick="clearInterval(autoS); plusSlides(1)">Next</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+<br><br>
+
+<!-- New movies bar -->
+<div class="nmov">
+<a href="hllwdad.html">Hollywood Adventures</a><a href="deadpool.html">Deadpool</a><a href="new_movies.html" id="high">New Movies ></a>
+</div>
+
+<!-- TO BE REMOVED: -->
+<h1>Rate movies and let others see your opinion!!</h1>
+<h2>To get started, select a movie from the list of new movies or popular franchises. <br> Because on jedischoice your opinion counts!</h2>
+<script src="jedijs.js"></script>
+
+<!-- Web Counter - For measuring Website visits - UPDATE COUNTER CODE ON WEBSITE BEFORE EACH UPLOAD OF INDEX.HTML TO WEB SERVER -->
+<div id="counter" style="position: relative; bottom:0;">
+	<!-- hitwebcounter Code START -->
+	<a href="http://www.hitwebcounter.com" target="_blank">
+	<img src="http://hitwebcounter.com/counter/counter.php?page=6369922&style=0007&nbdigits=5&type=page&initCount=0" title="URL Counter" Alt="URL Counter"   border="0" >
+	</a><br/>
+	<!-- hitwebcounter.com -->
+	<a href="http://www.hitwebcounter.com" title="Web Tracker" target="_blank" style="font-family: sans-serif, Arial, Helvetica; font-size: 12px; color: #6E7A76; text-decoration: underline ;">
+	<em>Web Tracker</em>
+	</a>   
+</div>
+                           
+</body>
+</html>
